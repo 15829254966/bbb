@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/vub300.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mmc/host/vub300.ko drivers/mmc/host/vub300.o drivers/mmc/host/vub300.mod.o

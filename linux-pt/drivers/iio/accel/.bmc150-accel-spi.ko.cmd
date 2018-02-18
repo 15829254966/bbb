@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bmc150-accel-spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/accel/bmc150-accel-spi.ko drivers/iio/accel/bmc150-accel-spi.o drivers/iio/accel/bmc150-accel-spi.mod.o

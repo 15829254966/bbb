@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufshcd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/ufs/ufshcd.ko drivers/scsi/ufs/ufshcd.o drivers/scsi/ufs/ufshcd.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/f75375s.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/f75375s.ko drivers/hwmon/f75375s.o drivers/hwmon/f75375s.mod.o

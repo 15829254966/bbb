@@ -1,0 +1,1 @@
+cmd_drivers/misc/hwlat_detector.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/hwlat_detector.ko drivers/misc/hwlat_detector.o drivers/misc/hwlat_detector.mod.o

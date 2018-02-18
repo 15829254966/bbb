@@ -1,0 +1,6 @@
+kernel/sound/soc/davinci/snd-soc-edma.ko
+kernel/sound/soc/davinci/snd-soc-davinci-mcasp.ko
+kernel/sound/soc/davinci/snd-soc-davinci-ctag-face-2-4.ko
+kernel/sound/soc/davinci/snd-soc-evm.ko
+kernel/sound/soc/davinci/snd-soc-justboom-dac.ko
+kernel/sound/soc/davinci/snd-soc-justboom-digi.ko

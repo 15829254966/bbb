@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_fs.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/usb_f_fs.ko drivers/usb/gadget/function/usb_f_fs.o drivers/usb/gadget/function/usb_f_fs.mod.o

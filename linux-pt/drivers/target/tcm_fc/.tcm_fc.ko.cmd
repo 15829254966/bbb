@@ -1,0 +1,1 @@
+cmd_drivers/target/tcm_fc/tcm_fc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/target/tcm_fc/tcm_fc.ko drivers/target/tcm_fc/tcm_fc.o drivers/target/tcm_fc/tcm_fc.mod.o

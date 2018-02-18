@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/qsemi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/qsemi.ko drivers/net/phy/qsemi.o drivers/net/phy/qsemi.mod.o

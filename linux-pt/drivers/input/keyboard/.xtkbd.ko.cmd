@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/xtkbd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/xtkbd.ko drivers/input/keyboard/xtkbd.o drivers/input/keyboard/xtkbd.mod.o

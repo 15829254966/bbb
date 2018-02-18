@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/apds9300.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/light/apds9300.ko drivers/iio/light/apds9300.o drivers/iio/light/apds9300.mod.o

@@ -1,0 +1,1 @@
+cmd_lib/lz4/lz4hc_compress.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o lib/lz4/lz4hc_compress.ko lib/lz4/lz4hc_compress.o lib/lz4/lz4hc_compress.mod.o

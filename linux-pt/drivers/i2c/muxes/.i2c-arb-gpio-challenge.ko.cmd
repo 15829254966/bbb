@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-arb-gpio-challenge.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/i2c/muxes/i2c-arb-gpio-challenge.ko drivers/i2c/muxes/i2c-arb-gpio-challenge.o drivers/i2c/muxes/i2c-arb-gpio-challenge.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/bcm-keypad.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/bcm-keypad.ko drivers/input/keyboard/bcm-keypad.o drivers/input/keyboard/bcm-keypad.mod.o

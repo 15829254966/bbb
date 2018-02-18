@@ -1,0 +1,1 @@
+cmd_drivers/misc/apds9802als.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/apds9802als.ko drivers/misc/apds9802als.o drivers/misc/apds9802als.mod.o

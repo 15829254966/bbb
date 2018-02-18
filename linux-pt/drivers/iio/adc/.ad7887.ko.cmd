@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad7887.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/ad7887.ko drivers/iio/adc/ad7887.o drivers/iio/adc/ad7887.mod.o

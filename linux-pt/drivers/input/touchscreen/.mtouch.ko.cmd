@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/mtouch.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/mtouch.ko drivers/input/touchscreen/mtouch.o drivers/input/touchscreen/mtouch.mod.o

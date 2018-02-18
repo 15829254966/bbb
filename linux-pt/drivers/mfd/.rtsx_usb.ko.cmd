@@ -1,0 +1,1 @@
+cmd_drivers/mfd/rtsx_usb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mfd/rtsx_usb.ko drivers/mfd/rtsx_usb.o drivers/mfd/rtsx_usb.mod.o

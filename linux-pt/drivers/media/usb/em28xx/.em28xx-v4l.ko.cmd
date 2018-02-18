@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-v4l.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/usb/em28xx/em28xx-v4l.ko drivers/media/usb/em28xx/em28xx-v4l.o drivers/media/usb/em28xx/em28xx-v4l.mod.o

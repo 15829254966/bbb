@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/addac/adt7316.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/addac/adt7316.ko drivers/staging/iio/addac/adt7316.o drivers/staging/iio/addac/adt7316.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc2007.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/tsc2007.ko drivers/input/touchscreen/tsc2007.o drivers/input/touchscreen/tsc2007.mod.o

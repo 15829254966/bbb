@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83792d.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/w83792d.ko drivers/hwmon/w83792d.o drivers/hwmon/w83792d.mod.o

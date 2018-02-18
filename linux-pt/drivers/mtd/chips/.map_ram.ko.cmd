@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/map_ram.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mtd/chips/map_ram.ko drivers/mtd/chips/map_ram.o drivers/mtd/chips/map_ram.mod.o

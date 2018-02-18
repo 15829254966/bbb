@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/spaceorb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/spaceorb.ko drivers/input/joystick/spaceorb.o drivers/input/joystick/spaceorb.mod.o

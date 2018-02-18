@@ -1,0 +1,1 @@
+cmd_lib/pm-notifier-error-inject.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o lib/pm-notifier-error-inject.ko lib/pm-notifier-error-inject.o lib/pm-notifier-error-inject.mod.o

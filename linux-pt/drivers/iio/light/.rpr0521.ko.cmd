@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/rpr0521.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/light/rpr0521.ko drivers/iio/light/rpr0521.o drivers/iio/light/rpr0521.mod.o

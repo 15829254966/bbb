@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-regulator.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/leds/leds-regulator.ko drivers/leds/leds-regulator.o drivers/leds/leds-regulator.mod.o

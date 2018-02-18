@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_obex.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/usb_f_obex.ko drivers/usb/gadget/function/usb_f_obex.o drivers/usb/gadget/function/usb_f_obex.mod.o

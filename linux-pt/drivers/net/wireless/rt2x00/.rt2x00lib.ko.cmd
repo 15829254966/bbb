@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2x00lib.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/rt2x00/rt2x00lib.ko drivers/net/wireless/rt2x00/rt2x00lib.o drivers/net/wireless/rt2x00/rt2x00lib.mod.o

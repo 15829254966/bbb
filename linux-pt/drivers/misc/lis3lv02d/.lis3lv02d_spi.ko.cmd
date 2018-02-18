@@ -1,0 +1,1 @@
+cmd_drivers/misc/lis3lv02d/lis3lv02d_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/lis3lv02d/lis3lv02d_spi.ko drivers/misc/lis3lv02d/lis3lv02d_spi.o drivers/misc/lis3lv02d/lis3lv02d_spi.mod.o

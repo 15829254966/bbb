@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/u132-hcd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/host/u132-hcd.ko drivers/usb/host/u132-hcd.o drivers/usb/host/u132-hcd.mod.o

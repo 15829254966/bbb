@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ads7828.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ads7828.ko drivers/hwmon/ads7828.o drivers/hwmon/ads7828.mod.o

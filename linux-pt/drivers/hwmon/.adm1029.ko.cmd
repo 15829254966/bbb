@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adm1029.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/adm1029.ko drivers/hwmon/adm1029.o drivers/hwmon/adm1029.mod.o

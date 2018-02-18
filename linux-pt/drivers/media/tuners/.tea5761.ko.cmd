@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tea5761.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/tea5761.ko drivers/media/tuners/tea5761.o drivers/media/tuners/tea5761.mod.o

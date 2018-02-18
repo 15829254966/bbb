@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/lm25066.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/pmbus/lm25066.ko drivers/hwmon/pmbus/lm25066.o drivers/hwmon/pmbus/lm25066.mod.o

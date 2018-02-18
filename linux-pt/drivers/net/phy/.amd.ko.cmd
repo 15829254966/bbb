@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/amd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/amd.ko drivers/net/phy/amd.o drivers/net/phy/amd.mod.o

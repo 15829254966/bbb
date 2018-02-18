@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adt7310.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/adt7310.ko drivers/hwmon/adt7310.o drivers/hwmon/adt7310.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/hampshire.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/hampshire.ko drivers/input/touchscreen/hampshire.o drivers/input/touchscreen/hampshire.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_i2c_atmel.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/char/tpm/tpm_i2c_atmel.ko drivers/char/tpm/tpm_i2c_atmel.o drivers/char/tpm/tpm_i2c_atmel.mod.o

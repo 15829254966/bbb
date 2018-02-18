@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/smm665.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/smm665.ko drivers/hwmon/smm665.o drivers/hwmon/smm665.mod.o

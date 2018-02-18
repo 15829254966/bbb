@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bma220_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/accel/bma220_spi.ko drivers/iio/accel/bma220_spi.o drivers/iio/accel/bma220_spi.mod.o

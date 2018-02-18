@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/sja1000_isa.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/can/sja1000/sja1000_isa.ko drivers/net/can/sja1000/sja1000_isa.o drivers/net/can/sja1000/sja1000_isa.mod.o

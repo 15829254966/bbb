@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_apollo.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/speakup/speakup_apollo.ko drivers/staging/speakup/speakup_apollo.o drivers/staging/speakup/speakup_apollo.mod.o

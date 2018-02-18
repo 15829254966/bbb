@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/or51132.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/or51132.ko drivers/media/dvb-frontends/or51132.o drivers/media/dvb-frontends/or51132.mod.o

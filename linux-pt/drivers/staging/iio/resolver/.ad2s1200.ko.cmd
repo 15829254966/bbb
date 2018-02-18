@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/resolver/ad2s1200.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/resolver/ad2s1200.ko drivers/staging/iio/resolver/ad2s1200.o drivers/staging/iio/resolver/ad2s1200.mod.o

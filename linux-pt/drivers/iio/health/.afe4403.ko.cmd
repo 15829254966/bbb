@@ -1,0 +1,1 @@
+cmd_drivers/iio/health/afe4403.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/health/afe4403.ko drivers/iio/health/afe4403.o drivers/iio/health/afe4403.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/hmc6352.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/hmc6352.ko drivers/misc/hmc6352.o drivers/misc/hmc6352.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/bmg160_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/gyro/bmg160_spi.ko drivers/iio/gyro/bmg160_spi.o drivers/iio/gyro/bmg160_spi.mod.o

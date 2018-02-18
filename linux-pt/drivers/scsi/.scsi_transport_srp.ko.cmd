@@ -1,0 +1,1 @@
+cmd_drivers/scsi/scsi_transport_srp.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/scsi_transport_srp.ko drivers/scsi/scsi_transport_srp.o drivers/scsi/scsi_transport_srp.mod.o

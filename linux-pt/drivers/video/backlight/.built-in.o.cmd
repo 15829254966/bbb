@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/video/backlight/built-in.o drivers/video/backlight/backlight.o drivers/video/backlight/gpio_backlight.o drivers/video/backlight/pwm_bl.o drivers/video/backlight/tps65217_bl.o 

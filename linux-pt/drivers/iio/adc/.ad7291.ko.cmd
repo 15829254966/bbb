@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad7291.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/ad7291.ko drivers/iio/adc/ad7291.o drivers/iio/adc/ad7291.mod.o

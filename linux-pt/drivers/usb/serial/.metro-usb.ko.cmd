@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/metro-usb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/metro-usb.ko drivers/usb/serial/metro-usb.o drivers/usb/serial/metro-usb.mod.o

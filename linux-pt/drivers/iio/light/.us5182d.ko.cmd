@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/us5182d.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/light/us5182d.ko drivers/iio/light/us5182d.o drivers/iio/light/us5182d.mod.o

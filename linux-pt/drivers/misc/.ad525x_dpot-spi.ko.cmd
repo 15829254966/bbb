@@ -1,0 +1,1 @@
+cmd_drivers/misc/ad525x_dpot-spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/ad525x_dpot-spi.ko drivers/misc/ad525x_dpot-spi.o drivers/misc/ad525x_dpot-spi.mod.o

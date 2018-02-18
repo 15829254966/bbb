@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/at76c50x-usb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/at76c50x-usb.ko drivers/net/wireless/at76c50x-usb.o drivers/net/wireless/at76c50x-usb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/rohm_bu21023.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/rohm_bu21023.ko drivers/input/touchscreen/rohm_bu21023.o drivers/input/touchscreen/rohm_bu21023.mod.o

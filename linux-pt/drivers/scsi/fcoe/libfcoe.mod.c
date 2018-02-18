@@ -1,0 +1,128 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0xbba89470, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xea8a2149, __VMLINUX_SYMBOL_STR(fc_linkup) },
+	{ 0x2d3385d3, __VMLINUX_SYMBOL_STR(system_wq) },
+	{ 0xb0aaff4f, __VMLINUX_SYMBOL_STR(bus_register) },
+	{ 0xbcd4d3ab, __VMLINUX_SYMBOL_STR(fc_exch_init) },
+	{ 0x6ebd14ab, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x65e75cb6, __VMLINUX_SYMBOL_STR(__list_del_entry) },
+	{ 0x12da5bb2, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0x6579f854, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x6c09c2a4, __VMLINUX_SYMBOL_STR(del_timer) },
+	{ 0x97255bdf, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x43a53735, __VMLINUX_SYMBOL_STR(__alloc_workqueue_key) },
+	{ 0x46f6669, __VMLINUX_SYMBOL_STR(dev_printk) },
+	{ 0xa1d55e90, __VMLINUX_SYMBOL_STR(_raw_spin_lock_bh) },
+	{ 0xf6fd3edd, __VMLINUX_SYMBOL_STR(skb_clone) },
+	{ 0x55c3654, __VMLINUX_SYMBOL_STR(dev_get_by_name) },
+	{ 0x6b06fdce, __VMLINUX_SYMBOL_STR(delayed_work_timer_fn) },
+	{ 0xd3f57a2, __VMLINUX_SYMBOL_STR(_find_next_bit_le) },
+	{ 0xd2da1048, __VMLINUX_SYMBOL_STR(register_netdevice_notifier) },
+	{ 0x4205ad24, __VMLINUX_SYMBOL_STR(cancel_work_sync) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0x9580deb, __VMLINUX_SYMBOL_STR(init_timer_key) },
+	{ 0xf5d58d2, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0x442a091f, __VMLINUX_SYMBOL_STR(__alloc_pages_nodemask) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0x343a1a8, __VMLINUX_SYMBOL_STR(__list_add) },
+	{ 0x9d0d6206, __VMLINUX_SYMBOL_STR(unregister_netdevice_notifier) },
+	{ 0x68e5a0c1, __VMLINUX_SYMBOL_STR(skb_trim) },
+	{ 0xe2d5255a, __VMLINUX_SYMBOL_STR(strcmp) },
+	{ 0x84644bd6, __VMLINUX_SYMBOL_STR(__netdev_alloc_skb) },
+	{ 0x6481bddb, __VMLINUX_SYMBOL_STR(fc_fcp_init) },
+	{ 0xe809ee90, __VMLINUX_SYMBOL_STR(__pskb_pull_tail) },
+	{ 0xfe7c4287, __VMLINUX_SYMBOL_STR(nr_cpu_ids) },
+	{ 0x183599df, __VMLINUX_SYMBOL_STR(fc_disc_config) },
+	{ 0xb1b4b3c6, __VMLINUX_SYMBOL_STR(kmap_atomic) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0x706d051c, __VMLINUX_SYMBOL_STR(del_timer_sync) },
+	{ 0xa6ad0d45, __VMLINUX_SYMBOL_STR(skb_queue_purge) },
+	{ 0x9f4056af, __VMLINUX_SYMBOL_STR(fc_elsct_init) },
+	{ 0xd824b3ad, __VMLINUX_SYMBOL_STR(fc_vport_id_lookup) },
+	{ 0x98e68eca, __VMLINUX_SYMBOL_STR(cancel_delayed_work) },
+	{ 0x5210a6d6, __VMLINUX_SYMBOL_STR(device_register) },
+	{ 0x7ac5b069, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x71c90087, __VMLINUX_SYMBOL_STR(memcmp) },
+	{ 0x33c7435c, __VMLINUX_SYMBOL_STR(prandom_u32_state) },
+	{ 0x4018b4ee, __VMLINUX_SYMBOL_STR(fc_exch_recv) },
+	{ 0xae675440, __VMLINUX_SYMBOL_STR(fc_lport_set_local_id) },
+	{ 0xdaf499ea, __VMLINUX_SYMBOL_STR(__ethtool_get_settings) },
+	{ 0xaafdc258, __VMLINUX_SYMBOL_STR(strcasecmp) },
+	{ 0x328a05f1, __VMLINUX_SYMBOL_STR(strncpy) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x28ac21e0, __VMLINUX_SYMBOL_STR(skb_push) },
+	{ 0xaf835ade, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x6220b4a2, __VMLINUX_SYMBOL_STR(crc32_le) },
+	{ 0xed93f29e, __VMLINUX_SYMBOL_STR(__kunmap_atomic) },
+	{ 0x8c03d20c, __VMLINUX_SYMBOL_STR(destroy_workqueue) },
+	{ 0x521445b, __VMLINUX_SYMBOL_STR(list_del) },
+	{ 0xc2cdbf1, __VMLINUX_SYMBOL_STR(synchronize_sched) },
+	{ 0x16e5c2a, __VMLINUX_SYMBOL_STR(mod_timer) },
+	{ 0xa735db59, __VMLINUX_SYMBOL_STR(prandom_u32) },
+	{ 0x3577fc2c, __VMLINUX_SYMBOL_STR(skb_pull) },
+	{ 0xf637383d, __VMLINUX_SYMBOL_STR(init_net) },
+	{ 0x58f930da, __VMLINUX_SYMBOL_STR(bus_unregister) },
+	{ 0xccb2439f, __VMLINUX_SYMBOL_STR(__get_page_tail) },
+	{ 0xe43a01dd, __VMLINUX_SYMBOL_STR(fc_lport_reset) },
+	{ 0x42160169, __VMLINUX_SYMBOL_STR(flush_workqueue) },
+	{ 0x8458f70b, __VMLINUX_SYMBOL_STR(contig_page_data) },
+	{ 0x5778981e, __VMLINUX_SYMBOL_STR(skb_queue_tail) },
+	{ 0xdd3916ac, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_bh) },
+	{ 0x3f616ce2, __VMLINUX_SYMBOL_STR(queue_delayed_work_on) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x7c62d042, __VMLINUX_SYMBOL_STR(cpu_possible_mask) },
+	{ 0x844c5263, __VMLINUX_SYMBOL_STR(kfree_skb) },
+	{ 0xd8d1642d, __VMLINUX_SYMBOL_STR(fc_linkdown) },
+	{ 0x6b2dc060, __VMLINUX_SYMBOL_STR(dump_stack) },
+	{ 0x996bdb64, __VMLINUX_SYMBOL_STR(_kstrtoul) },
+	{ 0xd8c3bcec, __VMLINUX_SYMBOL_STR(fc_disc_init) },
+	{ 0x6ba3cb43, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x1176e07f, __VMLINUX_SYMBOL_STR(__per_cpu_offset) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x26e2714c, __VMLINUX_SYMBOL_STR(put_page) },
+	{ 0x988574c, __VMLINUX_SYMBOL_STR(fc_rport_init) },
+	{ 0xfb53097a, __VMLINUX_SYMBOL_STR(skb_dequeue) },
+	{ 0xebfdb35, __VMLINUX_SYMBOL_STR(device_unregister) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0xb2d48a2e, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0xb81960ca, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0x74c88e80, __VMLINUX_SYMBOL_STR(fc_lport_init) },
+	{ 0xef9d84c3, __VMLINUX_SYMBOL_STR(consume_skb) },
+	{ 0x28352af3, __VMLINUX_SYMBOL_STR(dev_set_name) },
+	{ 0x7f02188f, __VMLINUX_SYMBOL_STR(__msecs_to_jiffies) },
+	{ 0x5ecc278c, __VMLINUX_SYMBOL_STR(dev_queue_xmit) },
+	{ 0x37dc00f9, __VMLINUX_SYMBOL_STR(skb_put) },
+	{ 0x72aedf9c, __VMLINUX_SYMBOL_STR(param_ops_uint) },
+	{ 0xdbbdefe4, __VMLINUX_SYMBOL_STR(dev_get_stats) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=libfc";
+

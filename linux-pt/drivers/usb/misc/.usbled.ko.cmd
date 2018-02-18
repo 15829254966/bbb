@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/usbled.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/usbled.ko drivers/usb/misc/usbled.o drivers/usb/misc/usbled.mod.o

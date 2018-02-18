@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/dss/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/gpu/drm/omapdrm/dss/built-in.o drivers/gpu/drm/omapdrm/dss/omapdss-boot-init.o drivers/gpu/drm/omapdrm/dss/omapdss-base.o drivers/gpu/drm/omapdrm/dss/omapdss.o 

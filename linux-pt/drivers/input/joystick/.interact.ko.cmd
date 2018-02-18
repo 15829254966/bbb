@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/interact.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/interact.ko drivers/input/joystick/interact.o drivers/input/joystick/interact.mod.o

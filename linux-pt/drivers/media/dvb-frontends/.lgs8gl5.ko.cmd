@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgs8gl5.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/lgs8gl5.ko drivers/media/dvb-frontends/lgs8gl5.o drivers/media/dvb-frontends/lgs8gl5.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tilcdc/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/gpu/drm/tilcdc/built-in.o drivers/gpu/drm/tilcdc/tilcdc_slave_compat.o drivers/gpu/drm/tilcdc/tilcdc_slave_compat.dtb.o 

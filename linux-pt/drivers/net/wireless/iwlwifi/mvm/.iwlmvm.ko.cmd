@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/iwlwifi/mvm/iwlmvm.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/iwlwifi/mvm/iwlmvm.ko drivers/net/wireless/iwlwifi/mvm/iwlmvm.o drivers/net/wireless/iwlwifi/mvm/iwlmvm.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/scsi_transport_sas.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/scsi_transport_sas.ko drivers/scsi/scsi_transport_sas.o drivers/scsi/scsi_transport_sas.mod.o

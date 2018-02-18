@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/twl4030-madc-hwmon.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/twl4030-madc-hwmon.ko drivers/hwmon/twl4030-madc-hwmon.o drivers/hwmon/twl4030-madc-hwmon.mod.o

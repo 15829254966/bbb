@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/magellan.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/magellan.ko drivers/input/joystick/magellan.o drivers/input/joystick/magellan.mod.o

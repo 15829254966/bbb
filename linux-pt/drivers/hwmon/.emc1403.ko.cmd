@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/emc1403.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/emc1403.ko drivers/hwmon/emc1403.o drivers/hwmon/emc1403.mod.o

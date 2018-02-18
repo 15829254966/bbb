@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/mcs7830.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/usb/mcs7830.ko drivers/net/usb/mcs7830.o drivers/net/usb/mcs7830.mod.o

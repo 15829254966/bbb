@@ -1,0 +1,1 @@
+cmd_drivers/misc/isl29003.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/isl29003.ko drivers/misc/isl29003.o drivers/misc/isl29003.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-digitalnow-tinytwin.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/rc/keymaps/rc-digitalnow-tinytwin.ko drivers/media/rc/keymaps/rc-digitalnow-tinytwin.o drivers/media/rc/keymaps/rc-digitalnow-tinytwin.mod.o

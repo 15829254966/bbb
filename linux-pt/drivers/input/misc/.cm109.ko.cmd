@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/cm109.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/misc/cm109.ko drivers/input/misc/cm109.o drivers/input/misc/cm109.mod.o

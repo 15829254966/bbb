@@ -1,0 +1,1 @@
+cmd_drivers/mtd/ar7part.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mtd/ar7part.ko drivers/mtd/ar7part.o drivers/mtd/ar7part.mod.o

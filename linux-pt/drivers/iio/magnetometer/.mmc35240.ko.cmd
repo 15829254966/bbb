@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/mmc35240.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/magnetometer/mmc35240.ko drivers/iio/magnetometer/mmc35240.o drivers/iio/magnetometer/mmc35240.mod.o

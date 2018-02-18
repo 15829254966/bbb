@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/imx6ul_tsc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/imx6ul_tsc.ko drivers/input/touchscreen/imx6ul_tsc.o drivers/input/touchscreen/imx6ul_tsc.mod.o

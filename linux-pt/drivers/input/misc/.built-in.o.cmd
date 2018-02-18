@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/palmas-pwrbutton.o drivers/input/misc/tps65218-pwrbutton.o drivers/input/misc/twl4030-pwrbutton.o drivers/input/misc/twl4030-vibra.o drivers/input/misc/twl6040-vibra.o drivers/input/misc/uinput.o 

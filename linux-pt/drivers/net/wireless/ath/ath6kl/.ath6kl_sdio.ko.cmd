@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o drivers/net/wireless/ath/ath6kl/ath6kl_sdio.mod.o

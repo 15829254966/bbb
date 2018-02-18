@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/gl520sm.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/gl520sm.ko drivers/hwmon/gl520sm.o drivers/hwmon/gl520sm.mod.o

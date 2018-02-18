@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-lua.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-roccat-lua.ko drivers/hid/hid-roccat-lua.o drivers/hid/hid-roccat-lua.mod.o

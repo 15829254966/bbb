@@ -1,0 +1,1 @@
+cmd_crypto/blowfish_common.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o crypto/blowfish_common.ko crypto/blowfish_common.o crypto/blowfish_common.mod.o

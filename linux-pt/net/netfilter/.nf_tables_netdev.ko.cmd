@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_tables_netdev.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_tables_netdev.ko net/netfilter/nf_tables_netdev.o net/netfilter/nf_tables_netdev.mod.o

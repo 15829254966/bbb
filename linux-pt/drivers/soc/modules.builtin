@@ -1,0 +1,3 @@
+kernel/drivers/soc/ti/pm33xx.ko
+kernel/drivers/soc/ti/ti-opp-domain.ko
+kernel/drivers/soc/ti/wkup_m3_ipc.ko

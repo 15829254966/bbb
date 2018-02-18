@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/kxcjk-1013.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/accel/kxcjk-1013.ko drivers/iio/accel/kxcjk-1013.o drivers/iio/accel/kxcjk-1013.mod.o

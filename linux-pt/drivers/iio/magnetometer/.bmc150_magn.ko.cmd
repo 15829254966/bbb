@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/bmc150_magn.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/magnetometer/bmc150_magn.ko drivers/iio/magnetometer/bmc150_magn.o drivers/iio/magnetometer/bmc150_magn.mod.o

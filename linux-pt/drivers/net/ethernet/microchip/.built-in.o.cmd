@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/microchip/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/net/ethernet/microchip/built-in.o drivers/net/ethernet/microchip/enc28j60.o drivers/net/ethernet/microchip/encx24j600.o drivers/net/ethernet/microchip/encx24j600-regmap.o 

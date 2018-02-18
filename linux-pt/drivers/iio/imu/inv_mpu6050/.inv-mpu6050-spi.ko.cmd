@@ -1,0 +1,1 @@
+cmd_drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.ko drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.o drivers/iio/imu/inv_mpu6050/inv-mpu6050-spi.mod.o

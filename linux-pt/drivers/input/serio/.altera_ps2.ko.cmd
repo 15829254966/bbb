@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/altera_ps2.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/serio/altera_ps2.ko drivers/input/serio/altera_ps2.o drivers/input/serio/altera_ps2.mod.o

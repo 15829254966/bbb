@@ -1,0 +1,1 @@
+cmd_net/wireless/lib80211_crypt_ccmp.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/wireless/lib80211_crypt_ccmp.ko net/wireless/lib80211_crypt_ccmp.o net/wireless/lib80211_crypt_ccmp.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda826x.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/tda826x.ko drivers/media/dvb-frontends/tda826x.o drivers/media/dvb-frontends/tda826x.mod.o

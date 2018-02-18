@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7879-spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/ad7879-spi.ko drivers/input/touchscreen/ad7879-spi.o drivers/input/touchscreen/ad7879-spi.mod.o

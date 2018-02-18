@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/thmc50.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/thmc50.ko drivers/hwmon/thmc50.o drivers/hwmon/thmc50.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/health/max30100.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/health/max30100.ko drivers/iio/health/max30100.o drivers/iio/health/max30100.mod.o

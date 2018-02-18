@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/accel/adis16201.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/accel/adis16201.ko drivers/staging/iio/accel/adis16201.o drivers/staging/iio/accel/adis16201.mod.o

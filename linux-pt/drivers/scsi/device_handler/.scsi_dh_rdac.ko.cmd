@@ -1,0 +1,1 @@
+cmd_drivers/scsi/device_handler/scsi_dh_rdac.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/device_handler/scsi_dh_rdac.ko drivers/scsi/device_handler/scsi_dh_rdac.o drivers/scsi/device_handler/scsi_dh_rdac.mod.o

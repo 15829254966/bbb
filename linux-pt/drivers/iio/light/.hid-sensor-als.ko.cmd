@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/hid-sensor-als.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/light/hid-sensor-als.ko drivers/iio/light/hid-sensor-als.o drivers/iio/light/hid-sensor-als.mod.o

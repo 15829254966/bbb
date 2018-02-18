@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-podhd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/usb/line6/snd-usb-podhd.ko sound/usb/line6/snd-usb-podhd.o sound/usb/line6/snd-usb-podhd.mod.o

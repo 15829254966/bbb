@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/lm95234.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/lm95234.ko drivers/hwmon/lm95234.o drivers/hwmon/lm95234.mod.o

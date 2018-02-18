@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lm3642.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/leds/leds-lm3642.ko drivers/leds/leds-lm3642.o drivers/leds/leds-lm3642.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/virt-dma.o drivers/dma/of-dma.o drivers/dma/omap-dma.o drivers/dma/dw/built-in.o drivers/dma/cppi41.o drivers/dma/ti-dma-crossbar.o drivers/dma/edma.o drivers/dma/xilinx/built-in.o 

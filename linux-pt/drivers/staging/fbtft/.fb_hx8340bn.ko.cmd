@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_hx8340bn.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/fbtft/fb_hx8340bn.ko drivers/staging/fbtft/fb_hx8340bn.o drivers/staging/fbtft/fb_hx8340bn.mod.o

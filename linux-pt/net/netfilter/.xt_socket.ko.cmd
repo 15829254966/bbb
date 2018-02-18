@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_socket.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_socket.ko net/netfilter/xt_socket.o net/netfilter/xt_socket.mod.o

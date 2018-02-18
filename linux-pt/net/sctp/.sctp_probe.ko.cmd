@@ -1,0 +1,1 @@
+cmd_net/sctp/sctp_probe.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/sctp/sctp_probe.ko net/sctp/sctp_probe.o net/sctp/sctp_probe.mod.o

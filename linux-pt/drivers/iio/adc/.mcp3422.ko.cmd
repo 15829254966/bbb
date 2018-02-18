@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/mcp3422.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/mcp3422.ko drivers/iio/adc/mcp3422.o drivers/iio/adc/mcp3422.mod.o

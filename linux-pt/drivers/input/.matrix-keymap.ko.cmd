@@ -1,0 +1,1 @@
+cmd_drivers/input/matrix-keymap.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/matrix-keymap.ko drivers/input/matrix-keymap.o drivers/input/matrix-keymap.mod.o

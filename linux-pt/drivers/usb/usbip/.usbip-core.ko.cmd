@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-core.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/usbip/usbip-core.ko drivers/usb/usbip/usbip-core.o drivers/usb/usbip/usbip-core.mod.o

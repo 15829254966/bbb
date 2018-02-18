@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc40.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/tsc40.ko drivers/input/touchscreen/tsc40.o drivers/input/touchscreen/tsc40.mod.o

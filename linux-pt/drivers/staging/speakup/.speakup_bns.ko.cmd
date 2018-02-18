@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_bns.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/speakup/speakup_bns.ko drivers/staging/speakup/speakup_bns.o drivers/staging/speakup/speakup_bns.mod.o

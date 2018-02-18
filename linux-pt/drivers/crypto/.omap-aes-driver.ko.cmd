@@ -1,0 +1,1 @@
+cmd_drivers/crypto/omap-aes-driver.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/crypto/omap-aes-driver.ko drivers/crypto/omap-aes-driver.o drivers/crypto/omap-aes-driver.mod.o

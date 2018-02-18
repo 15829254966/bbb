@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_HMARK.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_HMARK.ko net/netfilter/xt_HMARK.o net/netfilter/xt_HMARK.mod.o

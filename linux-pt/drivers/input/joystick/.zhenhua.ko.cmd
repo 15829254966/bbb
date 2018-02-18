@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/zhenhua.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/zhenhua.ko drivers/input/joystick/zhenhua.o drivers/input/joystick/zhenhua.mod.o

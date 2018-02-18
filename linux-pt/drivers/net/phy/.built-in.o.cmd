@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/net/phy/built-in.o drivers/net/phy/libphy.o drivers/net/phy/smsc.o drivers/net/phy/mscc.o drivers/net/phy/vitesse.o drivers/net/phy/dp83848.o drivers/net/phy/micrel.o 

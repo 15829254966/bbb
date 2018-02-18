@@ -1,0 +1,1 @@
+cmd_drivers/mmc/card/sdio_uart.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mmc/card/sdio_uart.ko drivers/mmc/card/sdio_uart.o drivers/mmc/card/sdio_uart.mod.o

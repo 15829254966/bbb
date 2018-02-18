@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/ssp_sensors/sensorhub.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/common/ssp_sensors/sensorhub.ko drivers/iio/common/ssp_sensors/sensorhub.o drivers/iio/common/ssp_sensors/sensorhub.mod.o

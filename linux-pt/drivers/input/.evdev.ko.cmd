@@ -1,0 +1,1 @@
+cmd_drivers/input/evdev.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/evdev.ko drivers/input/evdev.o drivers/input/evdev.mod.o

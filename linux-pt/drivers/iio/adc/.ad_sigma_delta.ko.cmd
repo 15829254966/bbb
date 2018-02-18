@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad_sigma_delta.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/ad_sigma_delta.ko drivers/iio/adc/ad_sigma_delta.o drivers/iio/adc/ad_sigma_delta.mod.o

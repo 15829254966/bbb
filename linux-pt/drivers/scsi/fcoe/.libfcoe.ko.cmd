@@ -1,0 +1,1 @@
+cmd_drivers/scsi/fcoe/libfcoe.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/fcoe/libfcoe.ko drivers/scsi/fcoe/libfcoe.o drivers/scsi/fcoe/libfcoe.mod.o

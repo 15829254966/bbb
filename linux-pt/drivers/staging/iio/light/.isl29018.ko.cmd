@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/light/isl29018.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/light/isl29018.ko drivers/staging/iio/light/isl29018.o drivers/staging/iio/light/isl29018.mod.o

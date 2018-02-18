@@ -1,0 +1,1 @@
+cmd_sound/soc/omap/snd-soc-omap.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/soc/omap/snd-soc-omap.ko sound/soc/omap/snd-soc-omap.o sound/soc/omap/snd-soc-omap.mod.o

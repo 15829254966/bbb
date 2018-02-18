@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/as3935.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/proximity/as3935.ko drivers/iio/proximity/as3935.o drivers/iio/proximity/as3935.mod.o

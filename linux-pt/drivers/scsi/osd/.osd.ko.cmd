@@ -1,0 +1,1 @@
+cmd_drivers/scsi/osd/osd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/osd/osd.ko drivers/scsi/osd/osd.o drivers/scsi/osd/osd.mod.o

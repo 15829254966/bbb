@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i2c/it66121.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/i2c/it66121.ko drivers/gpu/drm/i2c/it66121.o drivers/gpu/drm/i2c/it66121.mod.o

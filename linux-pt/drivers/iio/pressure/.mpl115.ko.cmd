@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/mpl115.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/pressure/mpl115.ko drivers/iio/pressure/mpl115.o drivers/iio/pressure/mpl115.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc0013.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/fc0013.ko drivers/media/tuners/fc0013.o drivers/media/tuners/fc0013.mod.o

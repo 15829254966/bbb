@@ -1,0 +1,1 @@
+cmd_drivers/virtio/virtio_balloon.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/virtio/virtio_balloon.ko drivers/virtio/virtio_balloon.o drivers/virtio/virtio_balloon.mod.o

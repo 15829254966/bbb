@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl1251/wl1251_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/ti/wl1251/wl1251_spi.ko drivers/net/wireless/ti/wl1251/wl1251_spi.o drivers/net/wireless/ti/wl1251/wl1251_spi.mod.o

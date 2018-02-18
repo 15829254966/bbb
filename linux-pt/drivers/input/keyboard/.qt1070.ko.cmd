@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/qt1070.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/qt1070.ko drivers/input/keyboard/qt1070.o drivers/input/keyboard/qt1070.mod.o

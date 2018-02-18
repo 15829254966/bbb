@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/virtio/virtio-gpu.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/virtio/virtio-gpu.ko drivers/gpu/drm/virtio/virtio-gpu.o drivers/gpu/drm/virtio/virtio-gpu.mod.o

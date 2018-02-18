@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/light/tsl2x7x_core.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/light/tsl2x7x_core.ko drivers/staging/iio/light/tsl2x7x_core.o drivers/staging/iio/light/tsl2x7x_core.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.ko drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.o drivers/media/rc/keymaps/rc-ati-tv-wonder-hd-600.mod.o

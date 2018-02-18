@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/samsung-keypad.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/samsung-keypad.ko drivers/input/keyboard/samsung-keypad.o drivers/input/keyboard/samsung-keypad.mod.o

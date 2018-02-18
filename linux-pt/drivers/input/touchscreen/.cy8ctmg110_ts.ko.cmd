@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cy8ctmg110_ts.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/cy8ctmg110_ts.ko drivers/input/touchscreen/cy8ctmg110_ts.o drivers/input/touchscreen/cy8ctmg110_ts.mod.o

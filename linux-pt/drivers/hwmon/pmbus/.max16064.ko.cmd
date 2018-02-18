@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/max16064.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/pmbus/max16064.ko drivers/hwmon/pmbus/max16064.o drivers/hwmon/pmbus/max16064.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/smsc47m192.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/smsc47m192.ko drivers/hwmon/smsc47m192.o drivers/hwmon/smsc47m192.mod.o

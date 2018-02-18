@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83627ehf.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/w83627ehf.ko drivers/hwmon/w83627ehf.o drivers/hwmon/w83627ehf.mod.o

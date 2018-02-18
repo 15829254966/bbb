@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/omap2_nand.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mtd/nand/omap2_nand.ko drivers/mtd/nand/omap2_nand.o drivers/mtd/nand/omap2_nand.mod.o

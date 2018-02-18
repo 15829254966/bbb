@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/msp3400.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/i2c/msp3400.ko drivers/media/i2c/msp3400.o drivers/media/i2c/msp3400.mod.o

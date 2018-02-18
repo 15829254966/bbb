@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ad7314.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ad7314.ko drivers/hwmon/ad7314.o drivers/hwmon/ad7314.mod.o

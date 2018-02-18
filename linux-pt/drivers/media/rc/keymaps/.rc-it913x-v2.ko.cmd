@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-it913x-v2.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/rc/keymaps/rc-it913x-v2.ko drivers/media/rc/keymaps/rc-it913x-v2.o drivers/media/rc/keymaps/rc-it913x-v2.mod.o

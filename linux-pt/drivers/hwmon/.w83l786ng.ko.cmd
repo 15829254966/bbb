@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83l786ng.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/w83l786ng.ko drivers/hwmon/w83l786ng.o drivers/hwmon/w83l786ng.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/usb/misc/snd-ua101.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/usb/misc/snd-ua101.ko sound/usb/misc/snd-ua101.o sound/usb/misc/snd-ua101.mod.o

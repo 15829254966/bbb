@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/ms5637.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/pressure/ms5637.ko drivers/iio/pressure/ms5637.o drivers/iio/pressure/ms5637.mod.o

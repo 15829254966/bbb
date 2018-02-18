@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_ltlk.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/speakup/speakup_ltlk.ko drivers/staging/speakup/speakup_ltlk.o drivers/staging/speakup/speakup_ltlk.mod.o

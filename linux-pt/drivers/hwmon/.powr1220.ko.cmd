@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/powr1220.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/powr1220.ko drivers/hwmon/powr1220.o drivers/hwmon/powr1220.mod.o

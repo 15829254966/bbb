@@ -1,0 +1,15 @@
+kernel/drivers/net/ethernet/microchip/enc28j60.ko
+kernel/drivers/net/ethernet/microchip/encx24j600.ko
+kernel/drivers/net/ethernet/microchip/encx24j600-regmap.ko
+kernel/drivers/net/ethernet/ti/cpsw-common.ko
+kernel/drivers/net/ethernet/ti/davinci_mdio.ko
+kernel/drivers/net/ethernet/ti/davinci_cpdma.ko
+kernel/drivers/net/ethernet/ti/cpsw_ale.ko
+kernel/drivers/net/ethernet/ti/cpts.ko
+kernel/drivers/net/ethernet/ti/ti_cpsw.ko
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/smsc.ko
+kernel/drivers/net/phy/mscc.ko
+kernel/drivers/net/phy/vitesse.ko
+kernel/drivers/net/phy/dp83848.ko
+kernel/drivers/net/phy/micrel.ko

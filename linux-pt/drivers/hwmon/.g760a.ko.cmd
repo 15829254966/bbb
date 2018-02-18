@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/g760a.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/g760a.ko drivers/hwmon/g760a.o drivers/hwmon/g760a.mod.o

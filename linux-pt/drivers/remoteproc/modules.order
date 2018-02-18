@@ -1,0 +1,5 @@
+kernel/drivers/remoteproc/omap_remoteproc.ko
+kernel/drivers/remoteproc/am437x_pruss_wrapper.ko
+kernel/drivers/remoteproc/pruss.ko
+kernel/drivers/remoteproc/pruss_intc.ko
+kernel/drivers/remoteproc/pru_rproc.ko

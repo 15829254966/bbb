@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/vf610_dac.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/dac/vf610_dac.ko drivers/iio/dac/vf610_dac.o drivers/iio/dac/vf610_dac.mod.o

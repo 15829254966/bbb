@@ -1,0 +1,1 @@
+cmd_net/nfc/nci/nci_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/nfc/nci/nci_spi.ko net/nfc/nci/nci_spi.o net/nfc/nci/nci_spi.mod.o

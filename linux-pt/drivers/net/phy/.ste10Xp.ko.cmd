@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/ste10Xp.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/ste10Xp.ko drivers/net/phy/ste10Xp.o drivers/net/phy/ste10Xp.mod.o

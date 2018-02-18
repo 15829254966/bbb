@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/physmap.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mtd/maps/physmap.ko drivers/mtd/maps/physmap.o drivers/mtd/maps/physmap.mod.o

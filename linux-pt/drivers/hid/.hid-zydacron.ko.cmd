@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zydacron.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-zydacron.ko drivers/hid/hid-zydacron.o drivers/hid/hid-zydacron.mod.o

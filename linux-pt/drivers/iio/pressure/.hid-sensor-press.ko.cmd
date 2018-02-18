@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/hid-sensor-press.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/pressure/hid-sensor-press.ko drivers/iio/pressure/hid-sensor-press.o drivers/iio/pressure/hid-sensor-press.mod.o

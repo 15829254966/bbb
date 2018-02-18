@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/nct6683.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/nct6683.ko drivers/hwmon/nct6683.o drivers/hwmon/nct6683.mod.o

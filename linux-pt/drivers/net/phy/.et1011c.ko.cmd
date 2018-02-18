@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/et1011c.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/et1011c.ko drivers/net/phy/et1011c.o drivers/net/phy/et1011c.mod.o

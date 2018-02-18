@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/pulsedlight-lidar-lite-v2.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/proximity/pulsedlight-lidar-lite-v2.ko drivers/iio/proximity/pulsedlight-lidar-lite-v2.o drivers/iio/proximity/pulsedlight-lidar-lite-v2.mod.o

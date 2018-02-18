@@ -1,0 +1,1 @@
+cmd_drivers/usb/wusbcore/wusb-wa.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/wusbcore/wusb-wa.ko drivers/usb/wusbcore/wusb-wa.o drivers/usb/wusbcore/wusb-wa.mod.o

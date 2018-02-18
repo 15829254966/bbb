@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/bcm87xx.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/bcm87xx.ko drivers/net/phy/bcm87xx.o drivers/net/phy/bcm87xx.mod.o

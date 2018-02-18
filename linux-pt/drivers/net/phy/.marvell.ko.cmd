@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/marvell.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/marvell.ko drivers/net/phy/marvell.o drivers/net/phy/marvell.mod.o

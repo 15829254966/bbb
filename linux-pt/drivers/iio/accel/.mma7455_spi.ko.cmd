@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/mma7455_spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/accel/mma7455_spi.ko drivers/iio/accel/mma7455_spi.o drivers/iio/accel/mma7455_spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/fixed_phy.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/fixed_phy.ko drivers/net/phy/fixed_phy.o drivers/net/phy/fixed_phy.mod.o

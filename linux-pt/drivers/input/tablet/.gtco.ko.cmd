@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/gtco.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/tablet/gtco.ko drivers/input/tablet/gtco.o drivers/input/tablet/gtco.mod.o

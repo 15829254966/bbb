@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/pptp.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/ppp/pptp.ko drivers/net/ppp/pptp.o drivers/net/ppp/pptp.mod.o

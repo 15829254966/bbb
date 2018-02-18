@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/meter/ade7854-spi.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/meter/ade7854-spi.ko drivers/staging/iio/meter/ade7854-spi.o drivers/staging/iio/meter/ade7854-spi.mod.o

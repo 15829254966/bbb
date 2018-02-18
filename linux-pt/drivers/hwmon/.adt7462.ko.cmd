@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adt7462.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/adt7462.ko drivers/hwmon/adt7462.o drivers/hwmon/adt7462.mod.o

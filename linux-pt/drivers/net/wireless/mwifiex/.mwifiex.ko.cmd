@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mwifiex/mwifiex.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/mwifiex/mwifiex.ko drivers/net/wireless/mwifiex/mwifiex.o drivers/net/wireless/mwifiex/mwifiex.mod.o

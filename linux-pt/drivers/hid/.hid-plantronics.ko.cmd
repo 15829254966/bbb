@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-plantronics.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-plantronics.ko drivers/hid/hid-plantronics.o drivers/hid/hid-plantronics.mod.o

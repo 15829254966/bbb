@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/smsc/smc91x.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/ethernet/smsc/smc91x.ko drivers/net/ethernet/smsc/smc91x.o drivers/net/ethernet/smsc/smc91x.mod.o

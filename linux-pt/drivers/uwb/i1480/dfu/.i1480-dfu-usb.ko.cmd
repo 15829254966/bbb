@@ -1,0 +1,1 @@
+cmd_drivers/uwb/i1480/dfu/i1480-dfu-usb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/uwb/i1480/dfu/i1480-dfu-usb.ko drivers/uwb/i1480/dfu/i1480-dfu-usb.o drivers/uwb/i1480/dfu/i1480-dfu-usb.mod.o

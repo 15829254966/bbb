@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/mxl111sf-tuner.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/usb/dvb-usb-v2/mxl111sf-tuner.ko drivers/media/usb/dvb-usb-v2/mxl111sf-tuner.o drivers/media/usb/dvb-usb-v2/mxl111sf-tuner.mod.o

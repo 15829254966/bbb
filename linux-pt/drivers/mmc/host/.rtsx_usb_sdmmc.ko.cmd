@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/rtsx_usb_sdmmc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mmc/host/rtsx_usb_sdmmc.ko drivers/mmc/host/rtsx_usb_sdmmc.o drivers/mmc/host/rtsx_usb_sdmmc.mod.o

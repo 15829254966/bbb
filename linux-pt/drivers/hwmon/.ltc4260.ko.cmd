@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ltc4260.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ltc4260.ko drivers/hwmon/ltc4260.o drivers/hwmon/ltc4260.mod.o

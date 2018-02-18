@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/dme1737.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/dme1737.ko drivers/hwmon/dme1737.o drivers/hwmon/dme1737.mod.o

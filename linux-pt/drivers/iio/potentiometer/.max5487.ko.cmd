@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/max5487.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/potentiometer/max5487.ko drivers/iio/potentiometer/max5487.o drivers/iio/potentiometer/max5487.mod.o

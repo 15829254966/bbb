@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-usb-si470x.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/radio/si470x/radio-usb-si470x.ko drivers/media/radio/si470x/radio-usb-si470x.o drivers/media/radio/si470x/radio-usb-si470x.mod.o

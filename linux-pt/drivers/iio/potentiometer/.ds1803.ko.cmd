@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/ds1803.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/potentiometer/ds1803.ko drivers/iio/potentiometer/ds1803.o drivers/iio/potentiometer/ds1803.mod.o

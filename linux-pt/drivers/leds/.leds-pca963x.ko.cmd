@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-pca963x.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/leds/leds-pca963x.ko drivers/leds/leds-pca963x.o drivers/leds/leds-pca963x.mod.o

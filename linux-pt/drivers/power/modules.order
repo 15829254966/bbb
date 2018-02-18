@@ -1,0 +1,2 @@
+kernel/drivers/power/generic-adc-battery.ko
+kernel/drivers/power/gpio-charger.ko

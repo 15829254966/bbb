@@ -1,0 +1,1 @@
+cmd_net/rpmsg/rpmsg_proto.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/rpmsg/rpmsg_proto.ko net/rpmsg/rpmsg_proto.o net/rpmsg/rpmsg_proto.mod.o

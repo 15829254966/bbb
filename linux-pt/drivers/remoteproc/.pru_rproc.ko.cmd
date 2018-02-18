@@ -1,0 +1,1 @@
+cmd_drivers/remoteproc/pru_rproc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/remoteproc/pru_rproc.ko drivers/remoteproc/pru_rproc.o drivers/remoteproc/pru_rproc.mod.o

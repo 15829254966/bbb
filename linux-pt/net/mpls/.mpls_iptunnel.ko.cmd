@@ -1,0 +1,1 @@
+cmd_net/mpls/mpls_iptunnel.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/mpls/mpls_iptunnel.ko net/mpls/mpls_iptunnel.o net/mpls/mpls_iptunnel.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/trigger/iio-trig-hrtimer.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/trigger/iio-trig-hrtimer.ko drivers/iio/trigger/iio-trig-hrtimer.o drivers/iio/trigger/iio-trig-hrtimer.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ina209.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ina209.ko drivers/hwmon/ina209.o drivers/hwmon/ina209.mod.o

@@ -1,0 +1,1 @@
+cmd_net/dccp/dccp_probe.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/dccp/dccp_probe.ko net/dccp/dccp_probe.o net/dccp/dccp_probe.mod.o

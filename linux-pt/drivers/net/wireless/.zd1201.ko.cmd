@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/zd1201.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/zd1201.ko drivers/net/wireless/zd1201.o drivers/net/wireless/zd1201.mod.o

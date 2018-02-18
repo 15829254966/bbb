@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/gpio_mouse.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/mouse/gpio_mouse.ko drivers/input/mouse/gpio_mouse.o drivers/input/mouse/gpio_mouse.mod.o

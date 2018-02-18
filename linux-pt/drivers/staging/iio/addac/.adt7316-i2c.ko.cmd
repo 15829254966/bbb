@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/addac/adt7316-i2c.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/addac/adt7316-i2c.ko drivers/staging/iio/addac/adt7316-i2c.o drivers/staging/iio/addac/adt7316-i2c.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/si7020.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/humidity/si7020.ko drivers/iio/humidity/si7020.o drivers/iio/humidity/si7020.mod.o

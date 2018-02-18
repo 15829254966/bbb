@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/teranetics.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/teranetics.ko drivers/net/phy/teranetics.o drivers/net/phy/teranetics.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tsc200x-core.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/tsc200x-core.ko drivers/input/touchscreen/tsc200x-core.o drivers/input/touchscreen/tsc200x-core.mod.o

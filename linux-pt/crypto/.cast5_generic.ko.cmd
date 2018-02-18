@@ -1,0 +1,1 @@
+cmd_crypto/cast5_generic.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o crypto/cast5_generic.ko crypto/cast5_generic.o crypto/cast5_generic.mod.o

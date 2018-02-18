@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/hp206c.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/pressure/hp206c.ko drivers/iio/pressure/hp206c.o drivers/iio/pressure/hp206c.mod.o

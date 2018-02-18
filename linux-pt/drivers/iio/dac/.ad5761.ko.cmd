@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/ad5761.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/dac/ad5761.ko drivers/iio/dac/ad5761.o drivers/iio/dac/ad5761.mod.o

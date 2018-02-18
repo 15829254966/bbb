@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/bcm5974.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/mouse/bcm5974.ko drivers/input/mouse/bcm5974.o drivers/input/mouse/bcm5974.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/wm97xx-ts.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/wm97xx-ts.ko drivers/input/touchscreen/wm97xx-ts.o drivers/input/touchscreen/wm97xx-ts.mod.o

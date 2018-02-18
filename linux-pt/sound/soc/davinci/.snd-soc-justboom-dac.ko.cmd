@@ -1,0 +1,1 @@
+cmd_sound/soc/davinci/snd-soc-justboom-dac.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/soc/davinci/snd-soc-justboom-dac.ko sound/soc/davinci/snd-soc-justboom-dac.o sound/soc/davinci/snd-soc-justboom-dac.mod.o

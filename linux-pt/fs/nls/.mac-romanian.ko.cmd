@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-romanian.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o fs/nls/mac-romanian.ko fs/nls/mac-romanian.o fs/nls/mac-romanian.mod.o

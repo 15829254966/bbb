@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pc87427.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/pc87427.ko drivers/hwmon/pc87427.o drivers/hwmon/pc87427.mod.o

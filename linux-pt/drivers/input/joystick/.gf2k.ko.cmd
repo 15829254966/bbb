@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/gf2k.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/gf2k.ko drivers/input/joystick/gf2k.o drivers/input/joystick/gf2k.mod.o

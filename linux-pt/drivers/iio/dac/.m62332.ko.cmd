@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/m62332.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/dac/m62332.ko drivers/iio/dac/m62332.o drivers/iio/dac/m62332.mod.o

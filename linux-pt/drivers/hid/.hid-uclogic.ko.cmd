@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-uclogic.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-uclogic.ko drivers/hid/hid-uclogic.o drivers/hid/hid-uclogic.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_ncm.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/usb/cdc_ncm.ko drivers/net/usb/cdc_ncm.o drivers/net/usb/cdc_ncm.mod.o

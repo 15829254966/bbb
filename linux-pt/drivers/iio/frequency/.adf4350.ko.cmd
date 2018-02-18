@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/adf4350.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/frequency/adf4350.ko drivers/iio/frequency/adf4350.o drivers/iio/frequency/adf4350.mod.o

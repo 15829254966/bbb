@@ -1,0 +1,1 @@
+cmd_sound/soc/davinci/snd-soc-davinci-ctag-face-2-4.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/soc/davinci/snd-soc-davinci-ctag-face-2-4.ko sound/soc/davinci/snd-soc-davinci-ctag-face-2-4.o sound/soc/davinci/snd-soc-davinci-ctag-face-2-4.mod.o

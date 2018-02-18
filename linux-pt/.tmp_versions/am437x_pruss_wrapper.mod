@@ -1,0 +1,2 @@
+drivers/remoteproc/am437x_pruss_wrapper.ko
+drivers/remoteproc/am437x_pruss_wrapper.o

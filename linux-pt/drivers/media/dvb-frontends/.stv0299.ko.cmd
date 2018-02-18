@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0299.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/stv0299.ko drivers/media/dvb-frontends/stv0299.o drivers/media/dvb-frontends/stv0299.mod.o

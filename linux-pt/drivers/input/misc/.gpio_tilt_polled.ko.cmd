@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio_tilt_polled.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/misc/gpio_tilt_polled.ko drivers/input/misc/gpio_tilt_polled.o drivers/input/misc/gpio_tilt_polled.mod.o

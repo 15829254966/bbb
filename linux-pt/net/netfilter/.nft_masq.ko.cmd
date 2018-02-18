@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_masq.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_masq.ko net/netfilter/nft_masq.o net/netfilter/nft_masq.mod.o

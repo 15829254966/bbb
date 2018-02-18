@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tilcdc/tilcdc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/tilcdc/tilcdc.ko drivers/gpu/drm/tilcdc/tilcdc.o drivers/gpu/drm/tilcdc/tilcdc.mod.o

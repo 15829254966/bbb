@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-topseed.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-topseed.ko drivers/hid/hid-topseed.o drivers/hid/hid-topseed.mod.o

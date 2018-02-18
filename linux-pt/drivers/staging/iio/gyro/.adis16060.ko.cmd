@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/gyro/adis16060.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/gyro/adis16060.ko drivers/staging/iio/gyro/adis16060.o drivers/staging/iio/gyro/adis16060.mod.o

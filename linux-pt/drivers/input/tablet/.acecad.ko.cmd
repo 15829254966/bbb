@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/acecad.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/tablet/acecad.ko drivers/input/tablet/acecad.o drivers/input/tablet/acecad.mod.o

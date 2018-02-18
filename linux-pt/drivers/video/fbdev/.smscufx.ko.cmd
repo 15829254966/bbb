@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/smscufx.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/video/fbdev/smscufx.ko drivers/video/fbdev/smscufx.o drivers/video/fbdev/smscufx.mod.o

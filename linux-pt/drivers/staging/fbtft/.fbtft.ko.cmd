@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fbtft.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/fbtft/fbtft.ko drivers/staging/fbtft/fbtft.o drivers/staging/fbtft/fbtft.mod.o

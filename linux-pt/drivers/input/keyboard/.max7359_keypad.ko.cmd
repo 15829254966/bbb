@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/max7359_keypad.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/max7359_keypad.ko drivers/input/keyboard/max7359_keypad.o drivers/input/keyboard/max7359_keypad.mod.o

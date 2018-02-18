@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-asus-ps3-100.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/rc/keymaps/rc-asus-ps3-100.ko drivers/media/rc/keymaps/rc-asus-ps3-100.o drivers/media/rc/keymaps/rc-asus-ps3-100.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mcs_touchkey.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/keyboard/mcs_touchkey.ko drivers/input/keyboard/mcs_touchkey.o drivers/input/keyboard/mcs_touchkey.mod.o

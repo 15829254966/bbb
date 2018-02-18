@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/max1668.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/max1668.ko drivers/hwmon/max1668.o drivers/hwmon/max1668.mod.o

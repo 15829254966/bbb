@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/chaoskey.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/chaoskey.ko drivers/usb/misc/chaoskey.o drivers/usb/misc/chaoskey.mod.o

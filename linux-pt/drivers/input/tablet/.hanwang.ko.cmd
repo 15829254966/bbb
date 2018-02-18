@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/hanwang.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/tablet/hanwang.ko drivers/input/tablet/hanwang.o drivers/input/tablet/hanwang.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/mag3110.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/magnetometer/mag3110.ko drivers/iio/magnetometer/mag3110.o drivers/iio/magnetometer/mag3110.mod.o

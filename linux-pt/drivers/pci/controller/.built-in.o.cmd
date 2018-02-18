@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/pci/controller/built-in.o drivers/pci/controller/pcie-designware.o drivers/pci/controller/pcie-designware-host.o drivers/pci/controller/pci-dra7xx.o 

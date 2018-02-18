@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt20xx.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/mt20xx.ko drivers/media/tuners/mt20xx.o drivers/media/tuners/mt20xx.mod.o

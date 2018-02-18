@@ -1,0 +1,1 @@
+cmd_crypto/ghash-generic.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o crypto/ghash-generic.ko crypto/ghash-generic.o crypto/ghash-generic.mod.o

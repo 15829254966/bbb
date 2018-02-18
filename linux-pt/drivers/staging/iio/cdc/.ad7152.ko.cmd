@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/cdc/ad7152.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/cdc/ad7152.ko drivers/staging/iio/cdc/ad7152.o drivers/staging/iio/cdc/ad7152.mod.o

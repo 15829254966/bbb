@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-gt683r.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-gt683r.ko drivers/hid/hid-gt683r.o drivers/hid/hid-gt683r.mod.o

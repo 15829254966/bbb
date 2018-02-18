@@ -1,0 +1,1 @@
+cmd_drivers/iio/amplifiers/ad8366.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/amplifiers/ad8366.ko drivers/iio/amplifiers/ad8366.o drivers/iio/amplifiers/ad8366.mod.o

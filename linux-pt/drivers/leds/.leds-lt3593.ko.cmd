@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lt3593.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/leds/leds-lt3593.ko drivers/leds/leds-lt3593.o drivers/leds/leds-lt3593.mod.o

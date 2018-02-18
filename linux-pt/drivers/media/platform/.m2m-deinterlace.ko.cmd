@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/m2m-deinterlace.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/platform/m2m-deinterlace.ko drivers/media/platform/m2m-deinterlace.o drivers/media/platform/m2m-deinterlace.mod.o

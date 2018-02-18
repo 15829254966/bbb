@@ -1,0 +1,1 @@
+cmd_drivers/power/generic-adc-battery.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/power/generic-adc-battery.ko drivers/power/generic-adc-battery.o drivers/power/generic-adc-battery.mod.o

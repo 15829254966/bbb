@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/regulator-haptic.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/misc/regulator-haptic.ko drivers/input/misc/regulator-haptic.o drivers/input/misc/regulator-haptic.mod.o

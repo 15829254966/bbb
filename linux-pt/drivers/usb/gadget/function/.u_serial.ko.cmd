@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_serial.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/u_serial.ko drivers/usb/gadget/function/u_serial.o drivers/usb/gadget/function/u_serial.mod.o

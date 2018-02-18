@@ -1,0 +1,1 @@
+cmd_net/packet/af_packet_diag.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/packet/af_packet_diag.ko net/packet/af_packet_diag.o net/packet/af_packet_diag.mod.o

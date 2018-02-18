@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/tsys02d.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/temperature/tsys02d.ko drivers/iio/temperature/tsys02d.o drivers/iio/temperature/tsys02d.mod.o

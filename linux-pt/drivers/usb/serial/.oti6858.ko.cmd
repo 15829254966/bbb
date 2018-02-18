@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/oti6858.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/oti6858.ko drivers/usb/serial/oti6858.o drivers/usb/serial/oti6858.mod.o

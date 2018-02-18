@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/vt1211.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/vt1211.ko drivers/hwmon/vt1211.o drivers/hwmon/vt1211.mod.o

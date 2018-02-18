@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ads1015.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ads1015.ko drivers/hwmon/ads1015.o drivers/hwmon/ads1015.mod.o

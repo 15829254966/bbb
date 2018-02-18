@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-ts3a227e.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-ts3a227e.ko sound/soc/codecs/snd-soc-ts3a227e.o sound/soc/codecs/snd-soc-ts3a227e.mod.o

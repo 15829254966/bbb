@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/meter/ade7759.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/iio/meter/ade7759.ko drivers/staging/iio/meter/ade7759.o drivers/staging/iio/meter/ade7759.mod.o

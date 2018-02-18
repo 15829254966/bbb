@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/touchright.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/touchright.ko drivers/input/touchscreen/touchright.o drivers/input/touchscreen/touchright.mod.o

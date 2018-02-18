@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ti/prueth.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/ethernet/ti/prueth.ko drivers/net/ethernet/ti/prueth.o drivers/net/ethernet/ti/prueth.mod.o

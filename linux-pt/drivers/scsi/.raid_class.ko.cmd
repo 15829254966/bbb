@@ -1,0 +1,1 @@
+cmd_drivers/scsi/raid_class.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/scsi/raid_class.ko drivers/scsi/raid_class.o drivers/scsi/raid_class.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_tinylcd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/staging/fbtft/fb_tinylcd.ko drivers/staging/fbtft/fb_tinylcd.o drivers/staging/fbtft/fb_tinylcd.mod.o

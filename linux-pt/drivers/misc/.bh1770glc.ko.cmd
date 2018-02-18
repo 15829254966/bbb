@@ -1,0 +1,1 @@
+cmd_drivers/misc/bh1770glc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/bh1770glc.ko drivers/misc/bh1770glc.o drivers/misc/bh1770glc.mod.o

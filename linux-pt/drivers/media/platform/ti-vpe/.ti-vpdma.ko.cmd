@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/ti-vpe/ti-vpdma.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/platform/ti-vpe/ti-vpdma.ko drivers/media/platform/ti-vpe/ti-vpdma.o drivers/media/platform/ti-vpe/ti-vpdma.mod.o

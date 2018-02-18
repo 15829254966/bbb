@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/cc10001_adc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/cc10001_adc.ko drivers/iio/adc/cc10001_adc.o drivers/iio/adc/cc10001_adc.mod.o

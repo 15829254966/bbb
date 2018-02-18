@@ -1,0 +1,1 @@
+cmd_lib/test_static_key_base.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o lib/test_static_key_base.ko lib/test_static_key_base.o lib/test_static_key_base.mod.o

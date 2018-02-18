@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/clocksource/built-in.o drivers/clocksource/clksrc-probe.o drivers/clocksource/mmio.o drivers/clocksource/timer-ti-32k.o drivers/clocksource/arm_arch_timer.o drivers/clocksource/dummy_timer.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/zr364xx/zr364xx.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/usb/zr364xx/zr364xx.ko drivers/media/usb/zr364xx/zr364xx.o drivers/media/usb/zr364xx/zr364xx.mod.o

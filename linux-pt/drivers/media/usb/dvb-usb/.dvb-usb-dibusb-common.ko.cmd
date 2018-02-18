@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.ko drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.o drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.mod.o

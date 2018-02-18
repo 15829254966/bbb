@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/shark2.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/media/radio/shark2.ko drivers/media/radio/shark2.o drivers/media/radio/shark2.mod.o

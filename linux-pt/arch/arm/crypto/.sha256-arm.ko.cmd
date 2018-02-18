@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha256-arm.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o arch/arm/crypto/sha256-arm.ko arch/arm/crypto/sha256-arm.o arch/arm/crypto/sha256-arm.mod.o

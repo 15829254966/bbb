@@ -1,0 +1,1 @@
+cmd_drivers/mtd/lpddr/lpddr_cmds.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/mtd/lpddr/lpddr_cmds.ko drivers/mtd/lpddr/lpddr_cmds.o drivers/mtd/lpddr/lpddr_cmds.mod.o

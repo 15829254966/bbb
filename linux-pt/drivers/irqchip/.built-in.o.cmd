@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/built-in.o :=  arm-linux-gnu-ld -EL    -r -o drivers/irqchip/built-in.o drivers/irqchip/irqchip.o drivers/irqchip/irq-omap-intc.o drivers/irqchip/irq-gic.o drivers/irqchip/irq-gic-common.o drivers/irqchip/irq-crossbar.o 

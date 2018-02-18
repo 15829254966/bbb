@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/aiptek.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/tablet/aiptek.ko drivers/input/tablet/aiptek.o drivers/input/tablet/aiptek.mod.o

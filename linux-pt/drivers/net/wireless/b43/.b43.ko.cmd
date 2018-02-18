@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43/b43.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/b43/b43.ko drivers/net/wireless/b43/b43.o drivers/net/wireless/b43/b43.mod.o

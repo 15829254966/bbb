@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-geneve.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/openvswitch/vport-geneve.ko net/openvswitch/vport-geneve.o net/openvswitch/vport-geneve.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/uwb/i1480/i1480-est.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/uwb/i1480/i1480-est.ko drivers/uwb/i1480/i1480-est.o drivers/uwb/i1480/i1480-est.mod.o

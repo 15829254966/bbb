@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/adxrs450.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/gyro/adxrs450.ko drivers/iio/gyro/adxrs450.o drivers/iio/gyro/adxrs450.mod.o

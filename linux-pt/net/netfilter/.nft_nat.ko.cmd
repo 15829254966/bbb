@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_nat.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_nat.ko net/netfilter/nft_nat.o net/netfilter/nft_nat.mod.o

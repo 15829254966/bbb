@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/jsa1212.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/light/jsa1212.ko drivers/iio/light/jsa1212.o drivers/iio/light/jsa1212.mod.o

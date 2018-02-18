@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/e3x0-button.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/misc/e3x0-button.ko drivers/input/misc/e3x0-button.o drivers/input/misc/e3x0-button.mod.o

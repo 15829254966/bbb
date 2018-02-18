@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/rpmsg-rpc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/rpmsg/rpmsg-rpc.ko drivers/rpmsg/rpmsg-rpc.o drivers/rpmsg/rpmsg-rpc.mod.o

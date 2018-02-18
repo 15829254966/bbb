@@ -1,0 +1,1 @@
+cmd_drivers/target/iscsi/iscsi_target_mod.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/target/iscsi/iscsi_target_mod.ko drivers/target/iscsi/iscsi_target_mod.o drivers/target/iscsi/iscsi_target_mod.mod.o

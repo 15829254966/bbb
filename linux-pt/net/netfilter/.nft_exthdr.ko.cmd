@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_exthdr.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_exthdr.ko net/netfilter/nft_exthdr.o net/netfilter/nft_exthdr.mod.o

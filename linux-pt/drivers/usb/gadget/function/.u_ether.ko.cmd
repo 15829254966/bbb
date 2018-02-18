@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_ether.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/u_ether.ko drivers/usb/gadget/function/u_ether.o drivers/usb/gadget/function/u_ether.mod.o

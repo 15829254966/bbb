@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti_dac7512.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/misc/ti_dac7512.ko drivers/misc/ti_dac7512.o drivers/misc/ti_dac7512.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-tiny-usb.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/i2c/busses/i2c-tiny-usb.ko drivers/i2c/busses/i2c-tiny-usb.o drivers/i2c/busses/i2c-tiny-usb.mod.o

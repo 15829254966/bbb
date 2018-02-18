@@ -1,0 +1,1 @@
+cmd_drivers/nfc/port100.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/nfc/port100.ko drivers/nfc/port100.o drivers/nfc/port100.mod.o

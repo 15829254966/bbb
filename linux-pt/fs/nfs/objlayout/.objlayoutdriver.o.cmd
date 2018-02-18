@@ -1,0 +1,1 @@
+cmd_fs/nfs/objlayout/objlayoutdriver.o := arm-linux-gnu-ld -EL    -r -o fs/nfs/objlayout/objlayoutdriver.o fs/nfs/objlayout/objio_osd.o fs/nfs/objlayout/pnfs_osd_xdr_cli.o fs/nfs/objlayout/objlayout.o 

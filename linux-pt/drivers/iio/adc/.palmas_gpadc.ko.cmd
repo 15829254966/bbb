@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/palmas_gpadc.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/palmas_gpadc.ko drivers/iio/adc/palmas_gpadc.o drivers/iio/adc/palmas_gpadc.mod.o

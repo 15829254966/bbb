@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/bcm-phy-lib.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/net/phy/bcm-phy-lib.ko drivers/net/phy/bcm-phy-lib.o drivers/net/phy/bcm-phy-lib.mod.o

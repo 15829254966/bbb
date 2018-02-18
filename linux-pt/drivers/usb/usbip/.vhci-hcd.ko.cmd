@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/vhci-hcd.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/usb/usbip/vhci-hcd.ko drivers/usb/usbip/vhci-hcd.o drivers/usb/usbip/vhci-hcd.mod.o

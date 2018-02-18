@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/drv260x.ko := arm-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o drivers/input/misc/drv260x.ko drivers/input/misc/drv260x.o drivers/input/misc/drv260x.mod.o
